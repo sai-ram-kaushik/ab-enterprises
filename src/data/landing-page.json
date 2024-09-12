@@ -1,0 +1,226 @@
+{
+  "navbar": {
+    "title": "A.B. Enterprises",
+    "leftnavlinks": [
+      { "label": "Home", "path": "/" },
+      { "label": "About", "path": "/about" },
+      { "label": "Services", "path": "/services" }
+    ],
+    "rightnavlinks": [
+      { "label": "Gallery", "path": "/gallery" },
+      { "label": "Contact", "path": "/contact" }
+    ]
+  },
+
+  "homeService": {
+    "heading": "Our Services",
+    "services": [
+      {
+        "label": "Corporate Gifting",
+        "desc": "Our Corporate Gifting services are designed to make your business stand out and strengthen relationships with clients, employees, and partners."
+      },
+      {
+        "label": "Corporate Supplies",
+        "desc": "A. B. Enterprises provides Corporate Supplies services to streamline your business needs"
+      },
+      {
+        "label": "Building Compliance",
+        "desc": "A. B. Enterprises ensures your building projects meet all regulations and standards"
+      },
+      {
+        "label": "Management & Consulting Services",
+        "desc": "A. B. Enterprises provides expert Consulting Services for obtaining government and private NOCs and licenses."
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Testimonials",
+    "leftReviews": [
+      {
+        "name": "Jack",
+        "username": "@jack",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "Jill",
+        "username": "@jill",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "John",
+        "username": "@john",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "Jane",
+        "username": "@jane",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "Jenny",
+        "username": "@jenny",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "James",
+        "username": "@james",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      }
+    ],
+
+    "rightReviews": [
+      {
+        "name": "Jack",
+        "username": "@jack",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "Jill",
+        "username": "@jill",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "John",
+        "username": "@john",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "Jane",
+        "username": "@jane",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "Jenny",
+        "username": "@jenny",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      },
+      {
+        "name": "James",
+        "username": "@james",
+        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "img": "/testimonial.png"
+      }
+    ]
+  },
+
+  "about": {
+    "heading": "Our Company",
+    "aboutCompany": "Founded on integrity and innovation, we bring extensive experience to every project, delivering tailored solutions that drive success. Our corporate services ensure smooth operations and help navigate complex regulations with ease. We provide insights to guide businesses toward their goals. Valuing long-term relationships, we're dedicated to offering reliable, professional support. Our mission is to be a trusted partner, equipping your business to thrive in today’s competitive environment.",
+    "imageUrl": "/corporate.png",
+    "founderHeading": "Meet Our Founder",
+    "founder": "Arjun Bhardwaj",
+    "founderImageUrl": "/arjun.png",
+    "designation": "Meet Arjun Bhardwaj, the visionary behind AB Enterprises, a seasoned professional with over a decade of expertise in procurement. With a keen understanding of industry dynamics and a passion for excellence, Arjun has cultivated AB Enterprises into a leading name in corporate gifting and supplies. His wealth of experience and commitment to delivering unparalleled quality ensure that every client receives exceptional service and tailored solutions to meet their needs. Join us as we explore the journey of Arjun Bhardwaj and the legacy he continues to build through AB Enterprises."
+  },
+
+  "service": {
+    "heading": "Our Services",
+    "corporateGifting": {
+      "title": "Corporate Gifting",
+      "services": [
+        {
+          "label": "Customised Gifting Solutions",
+          "desc": "We provide bespoke gift options that reflect your brand and cater to your specific requirements."
+        },
+        {
+          "label": "Branding Options",
+          "desc": "Enhance your gifts with personalized branding to leave a lasting impression."
+        },
+        {
+          "label": "Curated Gift Selection",
+          "desc": "Choose from our carefully curated selection of high-quality gifts, designed to impress and delight."
+        },
+        {
+          "label": "Bulk Ordering",
+          "desc": "Enjoy streamlined and efficient bulk ordering for large-scale gifting needs."
+        },
+        {
+          "label": "Employee Recognition",
+          "desc": "Reward and motivate your team with thoughtful and impactful recognition gifts."
+        },
+        {
+          "label": "Festival Gifting",
+          "desc": "Celebrate special occasions and festivals with gifts that convey your appreciation and joy"
+        },
+        {
+          "label": "Corporate Event Gifting",
+          "desc": " Make your corporate events memorable with expertly chosen gifts for attendees and guests."
+        },
+        {
+          "label": "Seasonal and Holiday Gifting",
+          "desc": "Spread cheer and goodwill with seasonal and holiday gifts that resonate with the spirit of the season"
+        },
+        {
+          "label": "Gift Tracking and Management",
+          "desc": "Keep track of your gifts with our comprehensive management services, ensuring timely delivery and accurate records"
+        }
+      ]
+    },
+
+    "corporateSupplies": {
+      "heading": "Corporate Supplies",
+      "services": [
+        {
+          "label": "A. B. Enterprises provides Corporate Supplies services to streamline your business needs"
+        },
+        {
+          "label": "Tailored solutions include customized procurement and efficient bulk ordering."
+        },
+        {
+          "label": "Inventory management services ensure seamless operations."
+        },
+        {
+          "label": "Focus on sustainable options to align with corporate responsibility goals."
+        },
+        {
+          "label": "Designed to enhance business efficiency and support operational success."
+        }
+      ]
+    },
+
+    "buildingCompliance": {
+      "title": "Building Compliance",
+      "services": [
+        {
+          "label": "Inspections"
+        },
+        {
+          "label": "Certification"
+        },
+        {
+          "label": "Documentation"
+        },
+        {
+          "label": "Compliance assessments"
+        }
+      ]
+    },
+
+    "consultingServices": {
+      "title": "Consulting Services",
+      "services": [
+        {
+          "label": "A. B. Enterprises provides expert Consulting Services for obtaining government and private NOCs (No Objection Certificates) and licenses."
+        },
+        {
+          "label": "Our team is experienced in navigating regulatory requirements."
+        },
+        {
+          "label": "Our goal is to simplify the approval process and ensure accurate, smooth application processing."
+        }
+      ]
+    }
+  }
+}
