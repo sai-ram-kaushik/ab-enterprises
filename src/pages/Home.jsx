@@ -25,7 +25,7 @@ const Home = () => {
       </div>
 
       <HomeServices homeService={data.homeService} />
-      <Testimonials testimonials={data.testimonials}/>
+      <Testimonials testimonials={data.testimonials} />
     </>
   );
 };

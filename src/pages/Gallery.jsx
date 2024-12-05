@@ -7,21 +7,69 @@ const Gallery = () => {
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
+            src="/gallery/1.svg"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
+            src="/gallery/2.svg"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
+            src="/gallery/3.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="grid gap-4">
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="/gallery/4.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="/gallery/5.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="/gallery/6.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="grid gap-4">
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="/gallery/7.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="/gallery/8.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="/gallery/9.svg"
             alt=""
           />
         </div>
@@ -30,67 +78,21 @@ const Gallery = () => {
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+            src="/gallery/10.svg"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
+            src="/gallery/11.svg"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="grid gap-4">
-        <div>
-          <img
-            class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="grid gap-4">
-        <div>
-          <img
-            class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+            src="/gallery/12.svg"
             alt=" "
           />
         </div>
