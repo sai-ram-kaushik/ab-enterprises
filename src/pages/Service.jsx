@@ -32,7 +32,7 @@ const Service = ({ service }) => {
                   <div className="logo">
                     <span className="circle circle4"></span>
                     <span className="circle circle5 text-background text-xl font-bold">
-                      {index}
+                      {index + 1}
                     </span>
                   </div>
                   <div className="glass"></div>
@@ -62,7 +62,7 @@ const Service = ({ service }) => {
                   <div className="logo">
                     <span className="circle circle4"></span>
                     <span className="circle circle5 text-background text-xl font-bold">
-                      {index}
+                      {index + 1}
                     </span>
                   </div>
                   <div className="glass"></div>
@@ -92,7 +92,7 @@ const Service = ({ service }) => {
                   <div className="logo">
                     <span className="circle circle4"></span>
                     <span className="circle circle5 text-background text-xl font-bold">
-                      {index}
+                      {index + 1}
                     </span>
                   </div>
                   <div className="glass"></div>
@@ -122,7 +122,7 @@ const Service = ({ service }) => {
                   <div className="logo">
                     <span className="circle circle4"></span>
                     <span className="circle circle5 text-background text-xl font-bold">
-                      {index}
+                      {index + 1}
                     </span>
                   </div>
                   <div className="glass"></div>

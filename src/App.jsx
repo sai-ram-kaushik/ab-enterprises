@@ -7,6 +7,7 @@ import data from "./data/landing-page.json";
 import Service from "./pages/Service";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import Products from "./pages/Products";
 
 const App = () => {
   return (
@@ -21,6 +22,10 @@ const App = () => {
           />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route
+            path="/products"
+            element={<Products products={data.products} />}
+          />
         </Routes>
       </Layout>
     </BrowserRouter>

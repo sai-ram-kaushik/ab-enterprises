@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        heading: "Urbanist",
-        bodyContent: "lufga",
+        heading: "Poppins",
+        bodyContent: "Nunito",
       },
 
       colors: {

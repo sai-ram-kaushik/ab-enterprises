@@ -223,5 +223,13 @@
         }
       ]
     }
-  }
+  },
+
+  "products": [
+    { "imageUrl": "/products/1.jpeg", "amount": "2799" },
+    { "imageUrl": "/products/2.jpeg", "amount": "1699" },
+    { "imageUrl": "/products/3.jpeg", "amount": "9999" },
+    { "imageUrl": "/products/4.jpeg", "amount": "1225" },
+    { "imageUrl": "/products/5.jpeg", "amount": "5500" }
+  ]
 }
