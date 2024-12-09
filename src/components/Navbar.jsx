@@ -35,7 +35,7 @@ const Navbar = ({ navbar }) => {
 
           {/* Center title */}
           <h1 className="flex-grow text-center text-2xl md:text-4xl font-heading font-bold">
-            A<span>.</span> B<span>.</span> ENTERPRISES
+            A.B. ENTERPRISES
           </h1>
 
           {/* Right navigation links (visible on desktop) */}

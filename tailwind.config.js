@@ -9,9 +9,9 @@ export default {
       },
 
       colors: {
-        background: "#fff",
-        primary: "#000",
-        secondary: "#FD853A",
+        background: "#000",
+        primary: "#fff",
+        secondary: "#FFFF00",
         footerBg: "#272727",
       },
     },

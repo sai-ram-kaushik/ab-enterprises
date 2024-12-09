@@ -17,16 +17,16 @@
     "heading": "Our Services",
     "services": [
       {
-        "label": "Corporate Gifting",
-        "desc": "Our Corporate Gifting services are designed to make your business stand out and strengthen relationships with clients, employees, and partners."
+        "label": "Building Compliance",
+        "desc": "A. B. Enterprises ensures your building projects meet all regulations and standards"
       },
       {
         "label": "Corporate Supplies",
         "desc": "A. B. Enterprises provides Corporate Supplies services to streamline your business needs"
       },
       {
-        "label": "Building Compliance",
-        "desc": "A. B. Enterprises ensures your building projects meet all regulations and standards"
+        "label": "Corporate Gifting",
+        "desc": "Our Corporate Gifting services are designed to make your business stand out and strengthen relationships with clients, employees, and partners."
       },
       {
         "label": "Management & Consulting Services",
@@ -39,39 +39,39 @@
     "title": "Testimonials",
     "leftReviews": [
       {
-        "name": "Jack",
-        "username": "@jack",
-        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "name": "Mr. Anshul Sharma",
+        "username": "Founder, Aumansh Pvt.ltd",
+        "body": "`Working with A. B. Enterprises for our building compliance needs was a seamless experience. They ensured every aspect of our project met regulations, saving us time and avoiding unnecessary hassles. Highly recommended!`",
         "img": "/testimonial.png"
       },
       {
-        "name": "Jill",
-        "username": "@jill",
-        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "name": "Mr. Harshit Gupta",
+        "username": "Admin Dept.",
+        "body": "A. B. Enterprises has been a game-changer for our office supply needs. Their services are efficient, cost-effective, and always delivered on time. Our business operations have never been smoother!`",
         "img": "/testimonial.png"
       },
       {
-        "name": "John",
-        "username": "@john",
-        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "name": "Mr. Vijay Yadav",
+        "username": "",
+        "body": "`We used A. B. Enterprises for our annual client gifting program, and the feedback was phenomenal. Their innovative and personalized gifting options strengthened our client relationships and enhanced our brand image.`",
         "img": "/testimonial.png"
       },
       {
-        "name": "Jane",
-        "username": "@jane",
-        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "name": "Ms. Sakshi Ahuja",
+        "username": "HR, Arctic ltd.",
+        "body": "`The consulting services provided by A. B. Enterprises were invaluable in securing the required government NOCs for our new project. Their expertise and professionalism made a complex process incredibly straightforward.`",
         "img": "/testimonial.png"
       },
       {
-        "name": "Jenny",
-        "username": "@jenny",
-        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "name": "Ms. Chanchal Vashist",
+        "username": "Shiva Associates",
+        "body": "`We've been relying on A. B. Enterprises for our corporate supply needs for over a year. Their ability to provide high-quality products consistently has been a huge asset to our team.`",
         "img": "/testimonial.png"
       },
       {
-        "name": "James",
-        "username": "@james",
-        "body": "“These top-notch products have not only elevated my brand but also significantly increased my revenue. Thanks a lot”",
+        "name": "Mr. Pawan",
+        "username": "Founder, Kegoz pvt ltd.",
+        "body": "`A. B. Enterprises understands our business needs perfectly. Their timely deliveries and excellent service make them our go-to partner for corporate supplies.`",
         "img": "/testimonial.png"
       }
     ],
@@ -165,7 +165,7 @@
         },
         {
           "label": "Gift Tracking and Management",
-          "desc": "Keep track of your gifts with our comprehensive management services, ensuring timely delivery and accurate records"
+          "desc": "Keep track of your gifts with our comprehensive management services, ensuring timely delivery."
         }
       ]
     },
@@ -213,7 +213,7 @@
       "title": "Consulting Services",
       "services": [
         {
-          "label": "A. B. Enterprises provides expert Consulting Services for obtaining government and private NOCs (No Objection Certificates) and licenses."
+          "label": "We provide expert Consulting Services for obtaining government and private NOCs (No Objection Certificates) and licenses."
         },
         {
           "label": "Our team is experienced in navigating regulatory requirements."

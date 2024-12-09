@@ -9,7 +9,7 @@ const Products = ({ products }) => {
             return (
               <div key={idx} className="flex flex-col items-start gap-2">
                 <img
-                  className="w-full h-96 object-cover rounded-xl transition duration-500 ease-in-out transform group-hover:blur-sm border border-secondary"
+                  className="w-full h-96 object-contain rounded-xl transition duration-500 ease-in-out transform group-hover:blur-sm border border-secondary"
                   src={product.imageUrl}
                   alt=""
                 />

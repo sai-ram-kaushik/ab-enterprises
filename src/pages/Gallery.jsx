@@ -7,17 +7,18 @@ const Gallery = () => {
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="/gallery/1.svg"
+            src="/gallery/2.svg"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="/gallery/2.svg"
+            src="/gallery/1.svg"
             alt=""
           />
         </div>
+
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
@@ -31,17 +32,18 @@ const Gallery = () => {
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="/gallery/4.svg"
+            src="/gallery/5.svg"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="/gallery/5.svg"
+            src="/gallery/4.svg"
             alt=""
           />
         </div>
+
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
@@ -55,17 +57,18 @@ const Gallery = () => {
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="/gallery/7.svg"
+            src="/gallery/8.svg"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="/gallery/8.svg"
+            src="/gallery/7.svg"
             alt=""
           />
         </div>
+
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
@@ -78,17 +81,18 @@ const Gallery = () => {
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="/gallery/10.svg"
+            src="/gallery/11.svg"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="/gallery/11.svg"
+            src="/gallery/10.svg"
             alt=""
           />
         </div>
+
         <div>
           <img
             class="h-auto max-w-full rounded-lg"

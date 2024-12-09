@@ -90,7 +90,7 @@ const Footer = () => {
                       ) ? (
                         <button
                           onClick={() => togglePopup(policy.name)}
-                          className="underline hover:text-gray-700"
+                          className="cursor-pointer"
                         >
                           {policy.name}
                         </button>
@@ -98,7 +98,7 @@ const Footer = () => {
                         <a
                           href="https://drive.google.com/file/d/1b7gjGEOEBpgg-YwlgV3wY3bBE-0Z7zqG/view?usp=drive_link"
                           target="_blank"
-                          className="underline hover:text-gray-700"
+                          className="cursor-pointer"
                         >
                           {policy.name}
                         </a>

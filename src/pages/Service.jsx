@@ -3,7 +3,7 @@ import TabButton from "../utils/TabButton";
 import "animate.css";
 
 const Service = ({ service }) => {
-  const [tab, setTab] = useState("Corporate Gifting");
+  const [tab, setTab] = useState("Building Compliance");
   const [isPending, startTransition] = useTransition();
   const {
     heading,
@@ -151,23 +151,26 @@ const Service = ({ service }) => {
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-5 mt-5 text-2xl">
         <TabButton
-          selectTab={() => handleTabChange("Corporate Gifting")}
-          active={tab === "Corporate Gifting"}
+          selectTab={() => handleTabChange("Building Compliance")}
+          active={tab === "Building Compliance"}
         >
-          {corporateGifting.title}
+          {buildingCompliance.title}
         </TabButton>
+
         <TabButton
           selectTab={() => handleTabChange("Corporate Supplies")}
           active={tab === "Corporate Supplies"}
         >
           {corporateSupplies.heading}
         </TabButton>
+
         <TabButton
-          selectTab={() => handleTabChange("Building Compliance")}
-          active={tab === "Building Compliance"}
+          selectTab={() => handleTabChange("Corporate Gifting")}
+          active={tab === "Corporate Gifting"}
         >
-          {buildingCompliance.title}
+          {corporateGifting.title}
         </TabButton>
+
         <TabButton
           selectTab={() => handleTabChange("Consulting Services")}
           active={tab === "Consulting Services"}

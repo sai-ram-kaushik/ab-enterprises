@@ -1,5 +1,6 @@
 import React from "react";
 import "animate.css";
+import { Link } from "react-router-dom";
 
 const HomeServices = ({ homeService }) => {
   const { heading, services } = homeService;
@@ -14,23 +15,25 @@ const HomeServices = ({ homeService }) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-center mt-5 w-full gap-5">
         {services.map((service, index) => {
           return (
-            <div className="parent" key={index}>
-              <div className="card">
-                <div className="logo">
-                  <span className="circle circle4"></span>
-                  <span className="circle circle5 text-background text-xl font-bold">
-                    {service.count}
-                  </span>
-                </div>
-                <div className="glass"></div>
-                <div className="content">
-                  <span className="text-background text-xl font-bold">
-                    {service.label}
-                  </span>
-                  <span className="text">{service.desc}</span>
+            <Link key={index} to="/services">
+              <div className="parent">
+                <div className="card">
+                  <div className="logo">
+                    <span className="circle circle4"></span>
+                    <span className="circle circle5 text-background text-xl font-bold">
+                      {service.count}
+                    </span>
+                  </div>
+                  <div className="glass"></div>
+                  <div className="content">
+                    <span className="text-background text-xl font-bold">
+                      {service.label}
+                    </span>
+                    <span className="text">{service.desc}</span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

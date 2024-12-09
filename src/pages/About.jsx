@@ -18,8 +18,6 @@ const About = ({ about }) => {
           {heading}
         </h2>
 
-        <p className="max-w-[900px] text-center ">{aboutCompany}</p>
-
         <img src={imageUrl} width={600} height={100} className="" />
       </div>
 
