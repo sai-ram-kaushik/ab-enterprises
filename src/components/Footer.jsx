@@ -130,7 +130,7 @@ const Footer = () => {
             >
               &times;
             </button>
-            <h2 className="text-lg font-semibold mb-4 text-secondary">
+            <h2 className="text-lg font-semibold mb-4 text-background">
               {popupContent}
             </h2>
             <div>

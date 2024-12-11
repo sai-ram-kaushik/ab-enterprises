@@ -2,7 +2,7 @@ import React from "react";
 
 const ReturnPolicy = () => {
   return (
-    <div className="flex flex-col items-start gap-2">
+    <div className="flex flex-col items-start gap-2 text-background">
       <h3>Returns</h3>
       <p>
         Our policy lasts 30 days. If 30 days have gone by since your purchase,

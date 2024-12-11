@@ -1,6 +1,7 @@
 {
   "navbar": {
     "title": "A.B. Enterprises",
+    "logo": "/logo.png",
     "leftnavlinks": [
       { "label": "Home", "path": "/" },
       { "label": "About", "path": "/about" },

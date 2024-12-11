@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FiMenu, FiX } from "react-icons/fi"; // Import icons
+import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = ({ navbar }) => {
-  const { title, leftnavlinks, rightnavlinks } = navbar;
+  const { title, leftnavlinks, rightnavlinks, logo } = navbar;
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -34,9 +34,7 @@ const Navbar = ({ navbar }) => {
           </div>
 
           {/* Center title */}
-          <h1 className="flex-grow text-center text-2xl md:text-4xl font-heading font-bold">
-            A.B. ENTERPRISES
-          </h1>
+          <img src={logo} width={50}/>
 
           {/* Right navigation links (visible on desktop) */}
           <div className="hidden md:flex items-center flex-grow justify-end gap-8">

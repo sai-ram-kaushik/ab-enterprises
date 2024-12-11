@@ -2,7 +2,7 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="flex flex-col items-start gap-2">
+    <div className="flex flex-col items-start gap-2 text-background">
       <h3 className="text-[18px] font-semibold">
         SECTION 1 - WHAT DO WE DO WITH YOUR INFORMATION?
       </h3>
