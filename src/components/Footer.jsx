@@ -6,10 +6,12 @@ import { Link } from "react-router-dom";
 import PrivacyPolicy from "./footerComponents/PrivacyPolicy";
 import ReturnPolicy from "./footerComponents/ReturnPolicy";
 import ShippingPolicy from "./footerComponents/ShippingPolicy";
+import PricingPolicy from "./footerComponents/PricingPolicy";
 const Footer = () => {
   const policies = [
     { name: "Privacy" },
     { name: "Refund" },
+    { name: "Pricing" },
     { name: "Shipping" },
     { name: "Terms and Conditions" },
   ];
@@ -85,7 +87,7 @@ const Footer = () => {
                 {policies.map((policy, idx) => (
                   <ul key={idx} className="text-[16px]">
                     <li>
-                      {["Privacy", "Shipping", "Refund"].includes(
+                      {["Privacy", "Shipping", "Refund", "Pricing"].includes(
                         policy.name
                       ) ? (
                         <button
@@ -137,6 +139,8 @@ const Footer = () => {
               {popupContent === "Privacy" && <PrivacyPolicy />}
 
               {popupContent === "Refund" && <ReturnPolicy />}
+
+              {popupContent === "Pricing" && <PricingPolicy />}
 
               {popupContent === "Shipping" && <ShippingPolicy />}
             </div>
