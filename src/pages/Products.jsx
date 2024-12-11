@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Products = ({ products }) => {
   return (
@@ -7,14 +8,16 @@ const Products = ({ products }) => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-5 lg:px-10 py-5">
           {products.map((product, idx) => {
             return (
-              <div key={idx} className="flex flex-col items-start gap-2">
-                <img
-                  className="w-full h-96 object-contain rounded-xl transition duration-500 ease-in-out transform group-hover:blur-sm border border-secondary"
-                  src={product.imageUrl}
-                  alt=""
-                />
-                <p>MRP: &#8377;{product.amount}</p>
-              </div>
+              <Link to="/contact">
+                <div key={idx} className="flex flex-col items-start gap-2">
+                  <img
+                    className="w-full h-96 object-contain rounded-xl transition duration-500 ease-in-out transform group-hover:blur-sm border border-secondary"
+                    src={product.imageUrl}
+                    alt=""
+                  />
+                  <p>MRP: &#8377;{product.amount}</p>
+                </div>
+              </Link>
             );
           })}
         </div>

@@ -48,7 +48,7 @@ const Contact = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Message (Add your enquiry details here)</label>
             <textarea
               id="message"
               name="message"
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <div>
             <button
-              className="bg-secondary py-3 px-6 text-background rounded-lg border border-secondary hover:text-heading duration-300 ease-out hover:bg-background"
+              className="bg-secondary py-3 px-6 text-background rounded-lg border border-secondary hover:text-primary duration-300 ease-out hover:bg-background"
               type="submit"
               disabled={state.submitting}
             >
