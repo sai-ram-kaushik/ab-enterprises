@@ -2,7 +2,10 @@ import React from "react";
 
 const ReturnPolicy = () => {
   return (
-    <div className="flex flex-col items-start gap-2 text-background">
+    <div className="flex flex-col items-start gap-2 text-primary px-5 lg:px-36">
+      <div className="flex items-center justify-center w-full">
+        <h3 className="text-[20px] font-heading font-bold">Refund Policy</h3>
+      </div>
       <h3>Returns</h3>
       <p>
         Our policy lasts 30 days. If 30 days have gone by since your purchase,
@@ -22,9 +25,9 @@ const ReturnPolicy = () => {
 
       <ul className="marker:text-secondary list-disc" role="list">
         <p>Additional Non-refundable items</p>
-        <li>Gift Cards</li>
-        <li>Downloadable Software products</li>
-        <li>Some health and personal care items</li>
+        <li className="ml-10">Gift Cards</li>
+        <li className="ml-10">Downloadable Software products</li>
+        <li className="ml-10">Some health and personal care items</li>
       </ul>
 
       <p>To complete your return, we require a receipt or proof of purchase.</p>

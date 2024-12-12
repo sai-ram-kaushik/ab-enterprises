@@ -2,7 +2,10 @@ import React from "react";
 
 const PricingPolicy = () => {
   return (
-    <div className="flex flex-col items-start gap-2 text-background">
+    <div className="flex flex-col items-start gap-2 text-primary px-5 md:px-36">
+      <div className="flex items-center justify-center w-full">
+        <h3 className="text-[20px] font-heading font-bold">Pricing policy</h3>
+      </div>
       <p>
         At A B Enterprises, we aim to provide transparent and competitive
         pricing for all your needs. Below are the key guidelines for our pricing

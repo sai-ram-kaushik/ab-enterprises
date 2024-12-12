@@ -3,34 +3,18 @@ import { IoMdMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import PrivacyPolicy from "./footerComponents/PrivacyPolicy";
-import ReturnPolicy from "./footerComponents/ReturnPolicy";
-import ShippingPolicy from "./footerComponents/ShippingPolicy";
-import PricingPolicy from "./footerComponents/PricingPolicy";
 const Footer = () => {
   const policies = [
-    { name: "Privacy" },
-    { name: "Refund" },
-    { name: "Pricing" },
-    { name: "Shipping" },
-    { name: "Terms and Conditions" },
+    { name: "Privacy", path: "/privacy-policy" },
+    { name: "Refund", path: "/privacy-policy", path: "/refund-policy" },
+    { name: "Pricing", path: "/pricing-policy" },
+    { name: "Shipping", path: "/shipping-policy" },
+    { name: "Terms and Conditions", path: "/terms-and-conditions" },
   ];
-
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [popupContent, setPopupContent] = useState("");
-
-  const togglePopup = (content = "") => {
-    setPopupContent(content);
-    setIsPopupOpen(!isPopupOpen);
-  };
 
   return (
     <>
-      <div
-        className={`w-full mt-10 p-3 px-5 lg:px-10 ${
-          isPopupOpen ? "blur-sm" : ""
-        }`}
-      >
+      <div className={`w-full mt-10 p-3 px-5 lg:px-10 `}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-4 items-center gap-5 lg:gap-16">
             <div className="flex flex-col items-start gap-3">
@@ -86,26 +70,9 @@ const Footer = () => {
               <div className="flex flex-col items-start gap-2">
                 {policies.map((policy, idx) => (
                   <ul key={idx} className="text-[16px]">
-                    <li>
-                      {["Privacy", "Shipping", "Refund", "Pricing"].includes(
-                        policy.name
-                      ) ? (
-                        <button
-                          onClick={() => togglePopup(policy.name)}
-                          className="cursor-pointer"
-                        >
-                          {policy.name}
-                        </button>
-                      ) : (
-                        <a
-                          href="https://drive.google.com/file/d/1b7gjGEOEBpgg-YwlgV3wY3bBE-0Z7zqG/view?usp=drive_link"
-                          target="_blank"
-                          className="cursor-pointer"
-                        >
-                          {policy.name}
-                        </a>
-                      )}
-                    </li>
+                    <Link to={policy.path}>
+                      <li>{policy.name}</li>
+                    </Link>
                   </ul>
                 ))}
               </div>
@@ -119,34 +86,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {isPopupOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-          <div
-            className="bg-white p-6 rounded-lg shadow-lg relative max-w-5xl w-full mx-auto"
-            style={{ maxHeight: "80vh", overflowY: "auto" }}
-          >
-            <button
-              className="absolute top-2 right-2 text-xl font-bold text-gray-700"
-              onClick={() => togglePopup()}
-            >
-              &times;
-            </button>
-            <h2 className="text-lg font-semibold mb-4 text-background">
-              {popupContent}
-            </h2>
-            <div>
-              {popupContent === "Privacy" && <PrivacyPolicy />}
-
-              {popupContent === "Refund" && <ReturnPolicy />}
-
-              {popupContent === "Pricing" && <PricingPolicy />}
-
-              {popupContent === "Shipping" && <ShippingPolicy />}
-            </div>
-          </div>
-        </div>
-      )}
     </>
   );
 };

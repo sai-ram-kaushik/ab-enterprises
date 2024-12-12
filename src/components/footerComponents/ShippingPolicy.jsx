@@ -2,7 +2,10 @@ import React from "react";
 
 const ShippingPolicy = () => {
   return (
-    <div className="flex flex-col items-start gap-2 text-background">
+    <div className="flex flex-col items-start gap-2 text-primary px-5 md:px-36">
+      <div className="flex items-center justify-center w-full">
+        <h3 className="text-[20px] font-heading font-bold">Shipping policy</h3>
+      </div>
       <p>
         All orders are processed within 12 to 15 business days (excluding
         weekends and holidays) after receiving your order confirmation email.
@@ -11,13 +14,17 @@ const ShippingPolicy = () => {
 
       <h3>Domestic Shipping Rates and Estimates</h3>
       <p>
-        <span className="font-bold text-background">For calculated shipping rates:</span>{" "}
+        <span className="font-bold text-background">
+          For calculated shipping rates:
+        </span>{" "}
         Shipping charges for your order will be calculated and displayed at
         checkout
       </p>
       <p>
-        <span className="font-bold text-background">For simple flat rate shipping:</span> We
-        offer INR 2500 flat rate shipping to Gurugram location only.
+        <span className="font-bold text-background">
+          For simple flat rate shipping:
+        </span>{" "}
+        We offer INR 2500 flat rate shipping to Gurugram location only.
       </p>
 
       <h3>Local delivery</h3>
